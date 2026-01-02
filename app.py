@@ -25,7 +25,7 @@ if "audioop" not in sys.modules:
 
 # --- 3. CẤU HÌNH BOT ---
 # Chú ý: Giữ nguyên Token này nếu bạn muốn dán thẳng vào code
-TOKEN = "MTE0MDg4OTgxNTYwOTUyODM2MA.GxkmaN.5yuoiiGZ_5U-3G4jPBRgKJ4NTmiM4c6kD-T4rs"
+TOKEN = "MTE0MDg4OTgxNTYwOTUyODM2MA.GBBtfZ.5LBlBR2CxQvtf6RSNPqPIo8fEnrlsrJ2mlHU8Y"
 CHANNEL_ID = 1418599629020463226
 APPLICATION_ID = 1321520416677695559
 TARGET_MC_NAME = ".binsonub"
@@ -65,3 +65,4 @@ if __name__ == "__main__":
         client.run(TOKEN)
     except Exception as e:
         print(f"❌ Lỗi đăng nhập hoặc bị Cloudflare chặn: {e}")
+
